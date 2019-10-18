@@ -1,0 +1,56 @@
+html{
+    scroll-behavior: smooth;
+}
+body.pushable{
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+}
+.pusher{
+	background: rgb(230, 230, 230) !important;
+}
+#dw-navbar{
+    margin: 0 20px 0 20px;
+}
+#dw-sbar{
+    background: none;
+}
+#dw-hamb{
+    background-color: rgba(255, 255, 255, .0);
+    color: black;
+}
+#dw-invbut{
+    margin: 8px 8px 0 0;
+    float: right;
+}
+.ui.sidebar {
+    overflow: visible !important;
+}
+
+/*Upload Form Styling Here*/
+
+.logoex{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.logoex img{
+    max-width: 50px;
+}
+.penutup{
+	text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+@media screen and (min-width: 700px){
+    #dw-sbar{
+        display: none;
+    }
+}
+@media screen and (max-width: 700px){
+    #dw-navbar{
+        display: none;
+	}
+	.dw-contbox{
+		grid-template-columns: 1fr;
+	}
+}
